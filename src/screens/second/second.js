@@ -18,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function SimpleSelect() {
+export default function Second() {
+    
     const classes = useStyles();
     const [Hours, setAge] = React.useState('');
     const [Minutes, setMin] = React.useState('');
@@ -28,21 +29,20 @@ export default function SimpleSelect() {
     const handleChange = (event) => {
         setAge(event.target.value);
     };
-    
+
     const handleChanges = (event) => {
         setMin(event.target.value);
 
     }; const handleChangess = (event) => {
         setAp(event.target.value);
     };
-
     return (
+        
         <div className="firstpic2" >
             <Fade top cascade>
                 <div className="ftext">
                     <h1>When do you want to reflect on your day?</h1>
                 </div>
-            </Fade>
 
             <div className="select">
                 <FormControl className={classes.formControl}>
@@ -150,6 +150,11 @@ export default function SimpleSelect() {
                 </FormControl>
 
             </div>
+            <div>
+                <button className="thrdbutt">Let's Do It</button>
+                </div>
+            </Fade>
+
         </div>
     );
 }

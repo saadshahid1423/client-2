@@ -19,6 +19,9 @@ class Start extends React.Component{
                 <h1>The best time to start is now</h1>
                 <p style={{fontSize:"16px"}}>You're taking the first step in changing your life. Let us guide you through it.</p>
                 </div>
+                </Fade>
+
+            <Fade bottom cascade>
                 <div>
                 <button onClick={()=>this.MoveToFirst()} className="butt">Let's Do It</button>
                 </div>

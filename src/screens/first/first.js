@@ -38,7 +38,7 @@ export default function First(props) {
     const MoveToFirst = () =>{
         // console.log("hello") 
         props.history.push("/night")
-        // console.log(this.props)
+        console.log(props)
         
     }
     return (
@@ -47,7 +47,8 @@ export default function First(props) {
                 <div className="ftext">
                     <h1>What time do you Usually wake up?</h1>
                 </div>
-
+                </Fade>
+                <Fade bottom cascade>
             <div className="select">
                 <FormControl className={classes.formControl}>
                     <InputLabel id="demo-simple-select-label">Hours</InputLabel>
@@ -57,15 +58,15 @@ export default function First(props) {
                         value={Hours}
                         onChange={handleChange}
                     >
-                        <MenuItem value={1}>1</MenuItem>
-                        <MenuItem value={2}>2</MenuItem>
-                        <MenuItem value={3}>3</MenuItem>
-                        <MenuItem value={4}>4</MenuItem>
-                        <MenuItem value={5}>5</MenuItem>
-                        <MenuItem value={6}>6</MenuItem>
-                        <MenuItem value={7}>7</MenuItem>
-                        <MenuItem value={8}>8</MenuItem>
-                        <MenuItem value={9}>9</MenuItem>
+                        <MenuItem value={1}>01</MenuItem>
+                        <MenuItem value={2}>02</MenuItem>
+                        <MenuItem value={3}>03</MenuItem>
+                        <MenuItem value={4}>04</MenuItem>
+                        <MenuItem value={5}>05</MenuItem>
+                        <MenuItem value={6}>06</MenuItem>
+                        <MenuItem value={7}>07</MenuItem>
+                        <MenuItem value={8}>08</MenuItem>
+                        <MenuItem value={9}>09</MenuItem>
                         <MenuItem value={10}>10</MenuItem>
                         <MenuItem value={11}>11</MenuItem>
                         <MenuItem value={12}>12</MenuItem>
@@ -79,15 +80,16 @@ export default function First(props) {
                         value={Minutes}
                         onChange={handleChanges}
                     >
-                        <MenuItem value={13}>1</MenuItem>
-                        <MenuItem value={14}>2</MenuItem>
-                        <MenuItem value={15}>3</MenuItem>
-                        <MenuItem value={16}>4</MenuItem>
-                        <MenuItem value={17}>5</MenuItem>
-                        <MenuItem value={18}>6</MenuItem>
-                        <MenuItem value={19}>7</MenuItem>
-                        <MenuItem value={20}>8</MenuItem>
-                        <MenuItem value={21}>9</MenuItem>
+                        <MenuItem value={74}>00</MenuItem>
+                        <MenuItem value={13}>01</MenuItem>
+                        <MenuItem value={14}>02</MenuItem>
+                        <MenuItem value={15}>03</MenuItem>
+                        <MenuItem value={16}>04</MenuItem>
+                        <MenuItem value={17}>05</MenuItem>
+                        <MenuItem value={18}>06</MenuItem>
+                        <MenuItem value={19}>07</MenuItem>
+                        <MenuItem value={20}>08</MenuItem>
+                        <MenuItem value={21}>09</MenuItem>
                         <MenuItem value={22}>10</MenuItem>
                         <MenuItem value={23}>11</MenuItem>
                         <MenuItem value={24}>12</MenuItem>
@@ -157,8 +159,7 @@ export default function First(props) {
             <div>
                 <button  onClick={MoveToFirst}  className="thrdbutt">Let's Do It</button>
                 </div>
-            </Fade>
-                
+                </Fade>
         </div>
         
     );

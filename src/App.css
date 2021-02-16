@@ -217,9 +217,261 @@ justify-content: space-around;
   font-family: 'Roboto', sans-serif;
   overflow-y: hidden;
 }
+html{
+  font-family: 'Roboto', sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 @media only screen and (max-width: 600px) {
   .firstpic8 {
     overflow-y: scroll;
     /* height: 130px; */
   }
+}
+.drinkwater{
+  background-color: rgb(2, 118, 172);
+  border-bottom-right-radius:30px;
+  margin-top: -2%;
+  text-align: center;
+  height:49.8vh;
+  color: white;
+  border-bottom-left-radius: 30px;
+}
+
+.water1{
+  height: 200px;
+  display: inline-block;
+  justify-content: end;
+
+}
+
+.Inp1{
+  width: 30%;
+  height: 40px;
+  font-size: 25px;
+}
+.Inp1:focus{
+  outline: none;
+}
+.bike{
+  height: 47.2vh;
+  text-align: center;
+  color: rgb(211, 221, 230);
+}
+.main{
+  background-color: rgba(22, 21, 21, 0.904) ;
+}
+@media only screen and (max-width: 800px) {
+  .Inp1 {
+    width: 60%;
+  }
+}
+/* Style.css */
+
+.main{
+  background-color: rgba(22, 21, 21, 0.904);
+  height: 100vh;
+}
+
+.navsBar{
+  margin-top: -1.2%;
+  text-align: justify; 
+  /* justify-content: center; */
+  align-items: center;   
+ background-color:  rgb(2, 118, 172);
+ color: white;
+  text-align: center;
+  /* border: 1px solid ; */
+border-radius: 0px 0px 25px 25px;
+width: 100%;
+height: 30vh;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1215px){
+  .navsBar {
+    margin-top: -1.3%;
+    height: 33vh;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .navsBar {
+  width: 100%;
+  border-radius: 0px 0px 25px 25px;
+}
+}
+@media only screen and (max-width: 600px){
+.navsBar {
+  width: 100%;
+  border-radius: 0px 0px 25px 25px;
+  margin-top: -3%;
+}
+}
+@media only screen and (max-width: 520px){
+  .navsBar {
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+    margin-top: -3.5%;
+  }
+  }
+  @media only screen and (max-width: 420px){
+    .navsBar {
+      width: 100%;
+      border-radius: 0px 0px 25px 25px;
+      margin-top: -4%;
+    }
+    }
+    @media only screen and (max-width: 373px){
+      .navsBar {
+        width: 100%;
+        border-radius: 0px 0px 25px 25px;
+        margin-top: -4.5%;
+      }
+      }
+      @media only screen and (max-width: 300px){
+        .navsBar {
+          width: 100%;
+          border-radius: 0px 0px 25px 25px;
+          margin-top: -5.2%;
+        }
+        }
+
+
+
+.newHabbits:hover{
+border-radius: 35px 35px 35px 35px ;
+/* transition: all 0.5 ease; */
+/* border:1px solid rgb(50, 80, 152); */
+background-color: rgb(2, 118, 172);
+color: white;
+/* width: 21%; */
+}
+.newHabbits{
+color: rgb(2, 118, 172);
+/* transition: 1!important; */
+transition: background-color 1s;
+border-radius: 35px 35px 35px 35px ;
+padding-left: 1%  ;
+width: 22%;
+cursor: pointer;
+
+}
+@media only screen and (max-width: 881px){
+.newHabbits {
+  width: 30%;
+  padding-left:10px;
+  
+}
+}
+
+@media only screen and (max-width: 669px){
+.newHabbits {
+  width: 35%;
+  padding-left:10px;
+  
+}
+}
+@media only screen and (max-width: 584px){
+.newHabbits {
+  width: 40%;
+  padding-left:10px;
+  
+}
+}
+@media only screen and (max-width: 500px){
+.newHabbits {
+  width: 45%;
+  padding-left:10px;
+  
+}
+}
+@media only screen and (max-width: 446px){
+.newHabbits {
+  width: 50%;
+  padding-left:10px;
+  
+}
+}
+@media only screen and (max-width: 400px){
+.newHabbits {
+  width: 55%;
+  padding-left:10px;
+  
+}
+}
+@media only screen and (max-width: 360px){
+.newHabbits {
+  width: 60%;
+  padding-left:10px;
+  
+}
+}
+@media only screen and (max-width: 338px){
+.newHabbits {
+  width: 65%;
+  padding-left:10px;
+  
+}
+}
+@media only screen and (max-width: 310px){
+.newHabbits {
+  width: 73%;
+  padding-left:10px;
+  
+}
+}
+
+
+
+.dirnkWater{
+height: 20vh;
+width: 40%;
+background-color: rgb(2, 118, 172);
+color: white;
+/* background-color: rgba(22, 21, 21, 0.904); */
+border-radius: 15px;
+margin-left: 30%;
+cursor: pointer;
+
+}
+@media only screen and (max-width:600px){
+  .dirnkWater {
+margin-left: 10%;
+    margin-top: 3%;
+    width: 80%;
+    height: 20vh;
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+} 
+.justcont{
+  /* padding-left: 20%; */
+  /* width: 40%; */
+display: flex;
+justify-content: center;
+}
+.ptext{
+font-size: 10px!important;
+}
+@media only screen and (max-width: 600px){
+.ptext {
+    /* width: 80%; */
+  /* height: 20vh; */
+  /* display: flex; */
+  /* justify-content: center; */
+  font-size: 15px!important;
+}
 }
